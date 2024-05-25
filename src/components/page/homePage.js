@@ -7,7 +7,7 @@ const homePage = () => {
 
     <main>
 
-      {/* <SlideShow /> */}
+     <SlideShow />
       <News />
       <Gallery />
     </main>
