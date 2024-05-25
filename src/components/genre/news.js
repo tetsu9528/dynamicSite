@@ -44,7 +44,7 @@ const News = () => {
               key={index}
               ref={(el) => (newsRef.current[index] = el)}
             >
-              <a href="news01.html" target="_blank" rel="noopener noreferrer">
+              <a href="#" target="_blank" rel="noopener noreferrer">
                 <img src="https://dummyimage.com/600x400/fff/000" alt="News" />
                 <div className="newsText">
                   <p>text text text text text text text text text text</p>
