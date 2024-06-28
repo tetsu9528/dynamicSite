@@ -292,6 +292,7 @@ color: #00AEEB;
 .gallery img:hover {
   transform: scale(1.2, 1.2);
   transition: 1s all;
+  cursor: default;
 }
 
 @media(max-width:950px){

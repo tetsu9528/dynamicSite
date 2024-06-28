@@ -39,9 +39,9 @@ const Gallery = () => {
             key={index}
             ref={(el) => (galleryRef.current[index] = el)}
           >
-            <a href="#">
+           
               <img src="https://dummyimage.com/600x400/fff/000" alt="Gallery" />
-            </a>
+            
           </div>
         ))}
       </div>
