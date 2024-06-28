@@ -4,9 +4,7 @@ import News from "../genre/news";
 import Gallery from "../genre/gallery";
 const homePage = () => {
   return (
-
     <main>
-
      <SlideShow />
       <News />
       <Gallery />

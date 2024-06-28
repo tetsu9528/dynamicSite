@@ -30,13 +30,13 @@ const Header = () => {
           <a href="#">X</a>
         </div>
         <h1 className="header__title header-title">
-          <Link to="/HomePage" onClick={handleLinkClick}>Site</Link>
+          <Link to="/dynamicSite" onClick={handleLinkClick}>Site</Link>
         </h1>
         
         <nav className={`header__nav nav ${isActive ? 'active' : ''}`} id="js-nav">
           <ul className="nav__items nav-items">
             <li className="nav-items__item">
-              <Link to="/HomePage" onClick={handleLinkClick}>ホーム</Link>
+              <Link to="/dynamicSite" onClick={handleLinkClick}>ホーム</Link>
             </li>
             <li className="nav-items__item">
               <Link to="/NewsPage" onClick={handleLinkClick}>ニュース</Link>
