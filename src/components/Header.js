@@ -12,11 +12,10 @@ const Header = () => {
     setIsActive(false);
   };
 
-  useEffect(() => {
-    const savedState = JSON.parse(localStorage.getItem('isActive'));
-    if (savedState) {
-      setIsActive(savedState);
-    }
+   // ローカルストレージから状態を取得しないように初期設定を変更
+   useEffect(() => {
+    // ページの初回起動時にはハンバーガーメニューは非表示にする
+    setIsActive(false);
   }, []);
 
   useEffect(() => {
